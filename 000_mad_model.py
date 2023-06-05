@@ -82,5 +82,6 @@ bi1.bsw1l1.4, k2 := BSW_K2L/l_bsw1l1.4;
 
 
 twmad = mad.twiss()
+mad.save(sequence="psb1",file="psb_saved.seq")
 
 

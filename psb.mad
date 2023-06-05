@@ -1,0 +1,11 @@
+local beam, track, twiss, match, damap, option, plot in MAD
+
+MADX:load("psb_saved.seq", "psb_saved.mad") -- convert on need
+
+local psb1 = MADX.psb1
+
+psb1.beam = beam { particle="proton", pc=0.5708301551893517 }
+
+local tw = twiss { sequence=psb1 }
+
+print(tw.q1,tw.q2)
