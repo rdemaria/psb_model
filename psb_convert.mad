@@ -1,0 +1,3 @@
+local beam, track, twiss, match, damap, option, plot in MAD
+
+MADX:load("psb_saved.seq","psb_saved.mad") -- convert on need

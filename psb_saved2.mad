@@ -106,9 +106,9 @@ kbr1dhz16l1 = 0
 kbr1dvt16l1 = 0
 kbi1ksw16l4 = 0
 br_msmif001 = rbend 'BR_MSMIF001' { l := 0.313, true_rbend=true, fringe=7 }
-bi1_bsw1l1_1 = br_msmif001 'BI1.BSW1L1.1' { angle =1.1e-10, k0 := k0bi1bsw1l11, k2 := bsw_k2l /l_bsw1l1_1, slot_id := 43192227 }
+bi1_bsw1l1_1 = br_msmif001 'BI1.BSW1L1.1' { angle =1.1e-10, k0 := k0bi1bsw1l11, k2 := bsw_k2l /l_bsw1l1_1, slot_id := 43192227, dx=-0.0057 }
 br_msbsw002 = rbend 'BR_MSBSW002' { l := 0.325 , true_rbend=true, fringe=7 }
-bi1_bsw1l1_2 = br_msbsw002 'BI1.BSW1L1.2' { angle =1.1e-10, k0 := k0bi1bsw1l12, k2 := -bsw_k2l /l_bsw1l1_2, slot_id := 43198754 }
+bi1_bsw1l1_2 = br_msbsw002 'BI1.BSW1L1.2' { angle =1.1e-10, k0 := k0bi1bsw1l12, k2 := -bsw_k2l /l_bsw1l1_2, slot_id := 43198754, dx=-0.0442 }
 br_btvts = instrument 'BR_BTVTS' { l := 0 }
 bi1_btv1l1 = br_btvts 'BI1.BTV1L1' { slot_id := 43201381 }
 br_bcsma = instrument 'BR_BCSMA' { l := 0 }
@@ -116,9 +116,9 @@ bi1_bcsf1l1 = br_bcsma 'BI1.BCSF1L1' { slot_id := 43201377 }
 br_tkstr002 = instrument 'BR_TKSTR002' { l := 0 }
 bi1_tstr1l1 = br_tkstr002 'BI1.TSTR1L1' { slot_id := 43201373 }
 br_msbsw003 = rbend 'BR_MSBSW003' { l := 0.325 , true_rbend=true, fringe=7 }
-bi1_bsw1l1_3 = br_msbsw003 'BI1.BSW1L1.3' { angle =1.1e-10, k0 := k0bi1bsw1l13, k2 := -bsw_k2l /l_bsw1l1_3, slot_id := 43201385 }
+bi1_bsw1l1_3 = br_msbsw003 'BI1.BSW1L1.3' { angle =1.1e-10, k0 := k0bi1bsw1l13, k2 := -bsw_k2l /l_bsw1l1_3, slot_id := 43201385, dx=-0.0442 }
 br_msbsw004 = rbend 'BR_MSBSW004' { l := 0.325 , true_rbend=true, fringe=7 }
-bi1_bsw1l1_4 = br_msbsw004 'BI1.BSW1L1.4' { angle =1.1e-10, k0 := k0bi1bsw1l14, k2 := bsw_k2l /l_bsw1l1_4, slot_id := 43201395 }
+bi1_bsw1l1_4 = br_msbsw004 'BI1.BSW1L1.4' { angle =1.1e-10, k0 := k0bi1bsw1l14, k2 := bsw_k2l /l_bsw1l1_4, slot_id := 43201395, dx=-0.0442 }
 br_tdima = collimator 'BR_TDIMA' { l := 0.07 }
 bi1_tdi1l1 = br_tdima 'BI1.TDI1L1' { slot_id := 43201399 }
 br_mbhgc4wp = sbend 'BR_MBHGC4WP' { l := 1.617696 }
